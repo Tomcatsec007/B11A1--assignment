@@ -1,0 +1,488 @@
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+body{
+  background-color: rgba(241, 241, 243, 1);
+}
+
+/* navbar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 160px;
+  margin-left: 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-heading{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 1);
+}
+.btn{
+  border-radius: 8px;
+  height: 52px;
+  width: 116px;
+  color:rgba(0, 106, 80, 1) ;
+  border: 1px solid rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0 auto;
+}
+
+/* banner-section */
+.banner-section{
+  /* max-width: 1280px; */
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 1280px;
+  height: 560px;
+  align-items: center;
+  margin-left:235px;
+  border-radius: 24px;
+  background-color: rgba(198, 228, 214, 1);
+  padding: 70px;;
+}
+.title-of-banner{
+  font-size: 32px;
+  color:rgba(14, 14, 14, 0.5) ;
+  font-weight: bold;
+}
+.ban-des{
+  font-size: 56px;
+  color: rgba(14, 14, 14, 1);
+  font-weight: bold;
+  margin-top: 10px;
+}
+.ban-btn{
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 270px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  padding: 17px 34px;
+}
+
+
+/* Pillar-section starts */
+
+.pillar-section-heading{
+  /* margin-left: 235px; */
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.pillar-section{
+  margin-left: 235px;
+  width: 1430px;;
+}
+.pillar-img{
+  width: 64px;
+  height: 64px;
+}
+.pillar-card{
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(176, 175, 175);
+  padding:24px 24px;
+}
+.pillar-heading{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  /*  */
+}
+.pillar-des{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.pillars{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px ;
+}
+.pillar-heading1{
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+/* vision section */
+
+.vision-container {
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 24px;
+  /* margin-left: 235px; */
+  width: 100%;
+}
+.visions{
+   margin-left: 235px;
+   width: 1440px;
+   margin-bottom: 50px;
+} 
+
+.card1{
+  width: 410.67px;
+  height: 325px;
+  padding: 32px; 
+  background-color:rgba(84, 144, 245, 0.2) ;
+  border-radius: 16px;
+}
+.card2{
+  width: 410.67px;
+  height: 325px;
+  padding: 32px; 
+  background-color:rgba(198, 228, 214, 1) ;
+  border-radius: 16px;
+}
+.card3{
+  width: 410.67px;
+  height: 325px;
+  padding: 32px; 
+  background-color:rgba(247, 235, 207, 1);
+  border-radius: 16px;
+}
+
+.vision-headings{
+  font-size: 40px;
+  font-weight: bold;
+}
+.vision-title{
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.vision-description{
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.7) ;
+  margin-bottom: 50px;
+}
+.btn-vis1{
+  width: 122px;
+  height: 41px;
+  background-color: rgba(84, 144, 245, 1);
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+}
+.btn-vis2{
+  width: 122px;
+  height: 41px;
+  background-color:rgba(9, 161, 92, 1) ; 
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+.btn-vis3{
+  width: 122px;
+  height: 41px;
+  font-weight: bold;
+  background-color:rgba(255, 194, 57, 1) ;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Yunus section */
+
+.yunus{
+  margin-left:235px; 
+  width: 1350px;
+  border-radius: 16px;
+  background-color: rgb(219, 228, 236);
+  padding: 24px 48px;
+  margin-bottom: 50px;
+}
+.pera{
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.8);
+}
+.head{
+  font-size: 20px;
+  font-weight: 600px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.pera1{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+}
+.name-pera{
+  margin-left: 10px;
+}
+.yunus-div{
+  background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding: 12px;
+}
+
+
+/* Recent News */
+.recent{
+  width: 1450px;
+  /* background-color: rgb(234, 242, 237); */
+  margin-left:235px; 
+  height: 1200px;
+}
+.recent-head{
+  margin-bottom: 10px;
+}
+
+.r-head{
+  font-size: 40px;
+  font-weight: bold;
+}
+.r-para{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 40px;
+}
+.sat-card1{
+  /* background-color: beige;  */
+  /* border-radius: 24px; */
+  display: flex;
+  /* margin-left: 5px; */
+  /* width:1440px; */
+  gap: 30px;
+  margin-bottom: 15px;
+  /* border: 1px solid black; */
+  background-color: rgb(223, 232, 251);
+  border-radius: 15px;
+}
+.sat-card2{
+  /* background-color: beige;  */
+  /* border-radius: 24px; */
+  display: flex;
+  /* margin-left: 5px; */
+  /* width:1440px; */
+  gap: 30px;
+  margin-bottom: 40px;
+  
+  /* border: 1px solid black; */
+  background-color: rgb(223, 232, 251);
+  border-radius: 15px;
+}
+.sat-card3{
+  /* background-color: beige;  */
+  /* border-radius: 24px; */
+  display: flex;
+  /* margin-left: 5px; */
+  /* width:1440px; */
+  gap: 30px;
+  /* border: 1px solid black; */
+  background-color: rgb(223, 232, 251);
+  border-radius: 15px;
+}
+.img-div{
+  /* border: 1px solid black; */
+  margin-left: 30px;
+  border-radius: 24px; 
+  height: 306px;
+  width: 408px;
+}
+.sat-des{
+  border-radius: 24px;
+  top: -0px;
+  height: 290px;
+  width: 744px;
+  /* border: 1px solid black; */
+}
+
+.vision-title{
+  font-size: 32px;
+  color:rgba(14, 14, 14, 0.8) ;
+  margin-bottom: 2px;
+}
+.sat-description{
+  font-size: 16px;
+  color:rgba(14, 14, 14, 0.7) ;
+}
+
+.btn-sat1{
+  color:White ;
+  background-color: rgba(0, 106, 80, 1);
+  height: 48px;
+  width: 139px;
+  border: none;
+  border-radius: 8px;
+}
+
+.span{
+  margin-left: 20px;
+}
+
+.p-tag{
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.sat-card2{
+  /* background-color: beige;  */
+  /* border-radius: 24px; */
+  display: flex;
+  /* margin-left: 5px; */
+  /* width:1440px; */
+  gap: 30px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+
+/* donate */
+.donate{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.ddd{
+  font-size: 40px;
+  font-weight: bold;
+}
+.d-head{
+  text-align: center;
+}
+.taka{
+  width: 1071px;
+  height: 128px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 180px;
+}
+
+.taka-card{
+  width: 252px;
+  height: 135px;
+  text-align: center;
+  
+  color: black;
+  font-size: 40px;
+  background-color:rgb(251, 249, 244) ;
+  border-radius: 15px;
+  border: 1px solid rgb(168, 164, 164);
+}
+
+.taka-card1{
+  width: 252px;
+  height: 135px;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  background-color:rgba(198, 228, 214, 1);
+  border-radius: 15px;
+  border: 1px solid rgb(168, 164, 164);
+}
+
+.amount{
+  text-align: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.area{
+  align-items: center; 
+  text-align: center;
+  justify-content: center; 
+  margin-bottom: 20px;
+  margin: 20px;
+  padding: 0;
+      
+}
+.ban-btn1{
+  background-color: rgba(0, 106, 80, 1);
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 150px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+  padding: 17px 34px;
+}
+
+
+/* last */
+
+.lastbody{
+  display: flex;
+  width: 750px;
+  height: 56px;
+}
+.last-head{
+  margin-bottom: 30px;
+  padding: 50px;
+}
+.l-h3{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.ppp{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
+}
+.last{
+  background-color: rgba(198, 228, 214, 1);
+  height: 395px;
+  border-radius: 10px;
+}
+.subscription-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; 
+  margin-top: -45px;
+  background-color: #e0f2eb;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.subscribe-button {
+  padding: 10px 20px;
+  background-color: #1b7f60; 
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #146b4d; 
+}
+
+.pppp{
+  text-align: center;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* FAQ */
+.FAQ_LAST{
+  text-align: center;
+}
+.h3{
+  font-size: 32px;
+}
+.FAQ-img{
+  letter-spacing: 10px;
+}
