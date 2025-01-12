@@ -1,12 +1,7 @@
-.open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+
 body{
   background-color: rgba(241, 241, 243, 1);
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /* navbar */
@@ -18,6 +13,7 @@ body{
   margin-left: 160px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: -20px;
 }
 .nav-heading{
   font-size: 32px;
@@ -33,6 +29,7 @@ body{
   font-size: 18px;
   font-weight: 600;
   padding: 0 auto;
+  cursor: pointer;
 }
 
 /* banner-section */
@@ -47,17 +44,18 @@ body{
   margin-left:235px;
   border-radius: 24px;
   background-color: rgba(198, 228, 214, 1);
-  padding: 70px;;
+  padding: 70px;
+  margin-bottom: 70px;
 }
 .title-of-banner{
   font-size: 32px;
-  color:rgba(14, 14, 14, 0.5) ;
+  color:rgba(6, 8, 5, 0.5) ;
   font-weight: bold;
 }
 .ban-des{
   font-size: 56px;
   color: rgba(14, 14, 14, 1);
-  font-weight: bold;
+  font-weight: bolder;
   margin-top: 10px;
 }
 .ban-btn{
@@ -83,7 +81,8 @@ body{
 }
 .pillar-section{
   margin-left: 235px;
-  width: 1430px;;
+  width: 1430px;
+  margin-bottom: 70px;
 }
 .pillar-img{
   width: 64px;
@@ -175,6 +174,7 @@ body{
   padding: 10px 15px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 .btn-vis2{
   width: 122px;
@@ -185,6 +185,7 @@ body{
   border: none;
   border-radius: 8px;
   color: white;
+  cursor: pointer;
 }
 .btn-vis3{
   width: 122px;
@@ -195,6 +196,7 @@ body{
   border: none;
   border-radius: 8px;
   color: white;
+  cursor: pointer;
 }
 
 /* Yunus section */
@@ -205,7 +207,7 @@ body{
   border-radius: 16px;
   background-color: rgb(219, 228, 236);
   padding: 24px 48px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .pera{
   font-size: 16px;
@@ -231,11 +233,13 @@ body{
 
 
 /* Recent News */
+
 .recent{
   width: 1450px;
   /* background-color: rgb(234, 242, 237); */
   margin-left:235px; 
   height: 1200px;
+  margin-bottom: 70px;
 }
 .recent-head{
   margin-bottom: 10px;
@@ -250,17 +254,19 @@ body{
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 40px;
 }
+
 .sat-card1{
   /* background-color: beige;  */
   /* border-radius: 24px; */
   display: flex;
   /* margin-left: 5px; */
   /* width:1440px; */
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 15px;
   /* border: 1px solid black; */
-  background-color: rgb(223, 232, 251);
+   background-color:rgba(247, 235, 207, 1) ; 
   border-radius: 15px;
+  padding: 15px;
 }
 .sat-card2{
   /* background-color: beige;  */
@@ -268,11 +274,11 @@ body{
   display: flex;
   /* margin-left: 5px; */
   /* width:1440px; */
-  gap: 30px;
+  gap: 50px;
   margin-bottom: 40px;
   
   /* border: 1px solid black; */
-  background-color: rgb(223, 232, 251);
+  background-color: rgba(198, 228, 214, 1);
   border-radius: 15px;
 }
 .sat-card3{
@@ -281,11 +287,15 @@ body{
   display: flex;
   /* margin-left: 5px; */
   /* width:1440px; */
-  gap: 30px;
+  gap: 50px;
   /* border: 1px solid black; */
   background-color: rgb(223, 232, 251);
   border-radius: 15px;
+  padding: 15px;
 }
+/* .im{
+  padding-left: 65px;
+} */
 .img-div{
   /* border: 1px solid black; */
   margin-left: 30px;
@@ -299,6 +309,14 @@ body{
   height: 290px;
   width: 744px;
   /* border: 1px solid black; */
+}
+.sat-des2{
+  border-radius: 24px;
+  top: -0px;
+  height: 290px;
+  width: 744px;
+  /* border: 1px solid black; */
+  padding-left: 28px;
 }
 
 .vision-title{
@@ -318,6 +336,7 @@ body{
   width: 139px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .span{
@@ -336,7 +355,9 @@ body{
   /* width:1440px; */
   gap: 30px;
   margin-bottom: 10px;
-  margin-left: 40px;
+  /* margin-left: 0px; */
+  padding: 15px;
+
 }
 
 
@@ -363,13 +384,13 @@ body{
 .taka-card{
   width: 252px;
   height: 135px;
-  text-align: center;
-  
+  text-align: center; 
   color: black;
   font-size: 40px;
   background-color:rgb(251, 249, 244) ;
   border-radius: 15px;
   border: 1px solid rgb(168, 164, 164);
+  
 }
 
 .taka-card1{
@@ -387,7 +408,9 @@ body{
   text-align: center;
   gap: 30px;
   margin-top: 20px;
+  padding: 10px;
 }
+
 .area{
   align-items: center; 
   text-align: center;
@@ -395,7 +418,7 @@ body{
   margin-bottom: 20px;
   margin: 20px;
   padding: 0;
-      
+  border-radius: 8px;    
 }
 .ban-btn1{
   background-color: rgba(0, 106, 80, 1);
@@ -477,14 +500,99 @@ body{
 }
 
 /* FAQ */
+
 .FAQ_LAST{
   text-align: center;
+  background-color: rgb(226, 219, 212);
+  border-radius: 10px;
+  padding: 1px;
+  margin-top: 15px;
 }
 .h3{
   font-size: 32px;
 }
 .FAQ-img{
   letter-spacing: 10px;
+  padding: 15px;
 }
 
 /* FAQ ends here */
+.im{
+  padding-left: 175px;
+}
+.image{
+  cursor: pointer;
+}
+
+/* experiment */
+
+.opinion-section {
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.opinion-table table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.opinion-table th,
+.opinion-table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 1);
+}
+
+.opinion-table th {
+  background-color: #d4edda;
+  color: #333;
+  font-weight: bold;
+}
+.opinion-table thead{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.opinion-table td {
+  background-color: #fff;
+}
+
+select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #9e9696;
+  background-color: #d4edda;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600; 
+}
+
+select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.oppinion-main-section{
+  margin-left: 35px;
+  margin-bottom: 70px;
+}
+.op{
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 1060px;
+}
